@@ -12,6 +12,10 @@
   const images = shuffle(Object.entries(modules).map((i) => i[1]));
 </script>
 
+<svelte:head>
+  <title>meow / maxz.dev</title>
+</svelte:head>
+
 <div class="flex w-full justify-center">
   <div class="px-4 md:px-24">
     <Masonry>
