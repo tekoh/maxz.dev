@@ -20,7 +20,7 @@
   <div class="px-4 md:px-24">
     <Masonry>
       {#each images as src}
-        <Img {src} alt="cat" />
+        <Img {src} class="rounded-lg" alt="cat" />
       {/each}
     </Masonry>
   </div>
