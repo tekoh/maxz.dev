@@ -1,7 +1,6 @@
 <script lang="ts">
   import { shuffle } from "$lib/utils";
   import Img from "@zerodevx/svelte-img";
-  import Masonry from "./masonry.svelte";
 
   const modules = import.meta.glob("$lib/assets/cats/*.*", {
     import: "default",
@@ -16,12 +15,12 @@
   <title>meow / maxz.dev</title>
 </svelte:head>
 
+<h1 class="mb-8 mt-14 w-full text-center text-3xl font-semibold text-primary">animals :D</h1>
+
 <div class="flex w-full justify-center">
-  <div class="px-4 md:px-24">
-    <Masonry>
-      {#each images as src}
-        <Img {src} class="rounded-lg" alt="cat" />
-      {/each}
-    </Masonry>
+  <div class="masonry sm:masonry-sm md:masonry-md px-4 md:px-24">
+    {#each images as src}
+      <Img {src} class="break-inside mb-[1.5em] rounded" />
+    {/each}
   </div>
 </div>
