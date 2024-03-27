@@ -18,7 +18,7 @@
 <h1 class="mb-8 mt-14 w-full text-center text-3xl font-semibold text-primary">animals :D</h1>
 
 <div class="flex w-full justify-center">
-  <div class="masonry sm:masonry-sm md:masonry-md px-4 md:px-24">
+  <div class="columns-3 gap-4 px-4 md:max-w-5xl">
     {#each images as src}
       <Img {src} class="break-inside mb-[1.5em] rounded" />
     {/each}
