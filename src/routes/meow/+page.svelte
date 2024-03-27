@@ -20,7 +20,9 @@
 <div class="flex w-full justify-center">
   <div class="columns-3 gap-4 px-4 md:max-w-5xl">
     {#each images as src}
-      <Img {src} class="break-inside mb-[1.5em] rounded" />
+      <div class="break-inside-avoid-column pb-[1.5em]">
+        <Img {src} class="rounded " />
+      </div>
     {/each}
   </div>
 </div>
