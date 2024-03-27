@@ -1,10 +1,13 @@
 <script>
-  import { CircleUser } from "lucide-svelte";
+  import { CircleUser, Home } from "lucide-svelte";
 </script>
 
 <header class="flex w-full justify-center">
   <nav class="flex w-full max-w-4xl items-center gap-8 p-4 text-lg">
     <a href="/" class="hidden pr-8 text-2xl font-bold text-primary sm:block">maxz.dev</a>
+    <a href="/" class="sm:hidden">
+      <Home color="#EC3C62" strokeWidth={2.5} size={28} />
+    </a>
     <a href="/meow">meow</a>
     <a target="_blank" href="https://nypsi.xyz">nypsi</a>
     <div class="grow" />
