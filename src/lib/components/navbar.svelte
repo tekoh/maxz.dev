@@ -1,5 +1,5 @@
 <script>
-  import { CircleUser, Home } from "lucide-svelte";
+  import { Home } from "lucide-svelte";
 </script>
 
 <header class="flex w-full justify-center">
@@ -11,8 +11,8 @@
     <a href="/meow">meow</a>
     <a target="_blank" href="https://nypsi.xyz">nypsi</a>
     <div class="grow" />
-    <a href="/account">
+    <!-- <a href="/account">
       <CircleUser color="#EC3C62" strokeWidth={2.5} size={28} />
-    </a>
+    </a> -->
   </nav>
 </header>
