@@ -8,7 +8,7 @@
     <a href="/" class="sm:hidden">
       <Home color="#EC3C62" strokeWidth={2.5} size={28} />
     </a>
-    <a href="/meow">meow</a>
+    <a href="https://animals.maxz.dev" target="_blank">meow</a>
     <a target="_blank" href="https://nypsi.xyz">nypsi</a>
     <div class="grow" />
     <!-- <a href="/account">
