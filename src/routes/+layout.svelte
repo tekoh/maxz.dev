@@ -4,7 +4,11 @@
 </script>
 
 <svelte:head>
-  <script src="/meow/js/script.js" data-api="/meow/api/event" data-domain="maxz.dev"></script>
+  <script
+    defer
+    data-domain="animals.maxz.dev"
+    src="https://analytics.maxz.dev/js/script.js"
+  ></script>
 </svelte:head>
 
 <Navbar></Navbar>
