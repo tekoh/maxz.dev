@@ -12,6 +12,9 @@ importers:
         specifier: ^1.11.11
         version: 1.11.11
     devDependencies:
+      '@catppuccin/daisyui':
+        specifier: ^1.0.0
+        version: 1.0.0(daisyui@4.12.2(postcss@8.4.38))(tailwindcss@3.4.4)
       '@sveltejs/adapter-vercel':
         specifier: ^5.3.2
         version: 5.3.2(@sveltejs/kit@2.5.17(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.3.1(@types/node@20.14.2)))(svelte@4.2.18)(vite@5.3.1(@types/node@20.14.2)))
@@ -76,6 +79,12 @@ packages:
   '@ampproject/remapping@2.3.0':
     resolution: {integrity: sha512-30iZtAPgz+LTIYoeivqYo853f02jBYSd5uGnGpkFV0M3xOt9aN73erkgYAmZU43x4VfqcnLxW9Kpg3R5LC4YYw==}
     engines: {node: '>=6.0.0'}
+
+  '@catppuccin/daisyui@1.0.0':
+    resolution: {integrity: sha512-Tilb+1AX1b1dYostSpUGIRd7QZPgBZvFYtNsAc5cW3LnmgNFnuoA9IyQObGjOiyDFB1umSUC9CySmAM+RXP8Sg==}
+    peerDependencies:
+      daisyui: ^4.10.2
+      tailwindcss: ^3.4.3
 
   '@esbuild/aix-ppc64@0.20.2':
     resolution: {integrity: sha512-D+EBOJHXdNZcLJRBkhENNG8Wji2kgc9AZ9KiPr1JuZjsNtyHzrsfLRrY0tk2H2aoFu6RANO1y1iPPUCDYWkb5g==}
@@ -1543,6 +1552,11 @@ snapshots:
     dependencies:
       '@jridgewell/gen-mapping': 0.3.5
       '@jridgewell/trace-mapping': 0.3.25
+
+  '@catppuccin/daisyui@1.0.0(daisyui@4.12.2(postcss@8.4.38))(tailwindcss@3.4.4)':
+    dependencies:
+      daisyui: 4.12.2(postcss@8.4.38)
+      tailwindcss: 3.4.4
 
   '@esbuild/aix-ppc64@0.20.2':
     optional: true
