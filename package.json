@@ -15,11 +15,9 @@
     "@sveltejs/adapter-vercel": "^5.3.2",
     "@sveltejs/kit": "^2.5.17",
     "@sveltejs/vite-plugin-svelte": "^3.1.1",
-    "@zerodevx/svelte-img": "^2.1.0",
     "autoprefixer": "^10.4.16",
     "daisyui": "^4.12.2",
     "dotenv": "^16.4.5",
-    "drizzle-kit": "^0.21.4",
     "lucide-svelte": "^0.394.0",
     "postcss": "^8.4.32",
     "postcss-load-config": "^5.0.2",
@@ -35,10 +33,6 @@
   },
   "type": "module",
   "dependencies": {
-    "@libsql/client": "^0.6.2",
-    "@lucia-auth/adapter-drizzle": "^1.0.7",
-    "dayjs": "^1.11.11",
-    "drizzle-orm": "^0.30.5",
-    "lucia": "^3.1.1"
+    "dayjs": "^1.11.11"
   }
 }
