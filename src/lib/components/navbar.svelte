@@ -1,5 +1,4 @@
 <script>
-  import { Home } from "lucide-svelte";
 </script>
 
 <header class="flex w-full justify-center">
