@@ -23,7 +23,7 @@
         paranoid schizophrenic
       </p>
 
-      <a href="#stuff" class="btn btn-info mt-14">my stuff</a>
+      <a href="/stuff" class="btn btn-info mt-14">my stuff</a>
 
       <div class="mt-4 rounded-lg bg-base-200 p-4 shadow">
         <h2 class="text-lg font-semibold text-primary">contact</h2>
