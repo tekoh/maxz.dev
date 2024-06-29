@@ -50,5 +50,23 @@
         </div>
       </div>
     </div>
+
+    <div class="card bg-base-200 shadow-xl">
+      <div class="card-body">
+        <h2 class="card-title text-primary">files</h2>
+
+        <p class="whitespace-normal break-words text-sm">
+          private temporary file hosting site. requires an invite token to be allowed access, which
+          only certain users can generate.
+        </p>
+
+        <div class="card-actions justify-end">
+          <a href="https://files.maxz.dev" target="_blank" class="btn btn-ghost">
+            <span>website</span>
+            <ExternalLink size={16} strokeWidth={2.5} />
+          </a>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
